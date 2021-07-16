@@ -1,9 +1,10 @@
-% MobileNetV2
-% Load Parameters 
-trainingSetup = load("/Users/aditishanmugam/Documents/University/PBL/ModelData/MobileNetV2-params_2021_06_11__15_11_45.mat");
+% Here is the code to train the modified MobileNetV2 for Fire and Smoke Detection.
+
+% Initial parameterss
+% trainingSetup = load("path to file containing initial training parameters");
 
 % Data Import
-imdsTrain = imageDatastore("/Users/aditishanmugam/Documents/University/PBL/FireDataset/Data","IncludeSubfolders",true,"LabelSource","foldernames");
+imdsTrain = imageDatastore("path to dataset","IncludeSubfolders",true,"LabelSource","foldernames");
 [imdsTrain, imdsValidation] = splitEachLabel(imdsTrain,0.8,"randomized");
 
 % Data Augmentation
