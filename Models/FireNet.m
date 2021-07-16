@@ -1,9 +1,9 @@
-% FireNet
+% Here is the MATLAB code to train the FireNet for Fire and Smoke Detection.
 % Load Parameters
-trainingSetup = load("/Users/aditishanmugam/Documents/University/PBL/ModelData/params_2021_07_12__03_53_27.mat");
+trainingSetup = load("path to file containing initial training parameters");
 
 % Data Import
-imdsTrain = imageDatastore("/Users/aditishanmugam/Documents/University/PBL/FireDataset/Data","IncludeSubfolders",true,"LabelSource","foldernames");
+imdsTrain = imageDatastore("path to dataset","IncludeSubfolders",true,"LabelSource","foldernames");
 [imdsTrain, imdsValidation] = splitEachLabel(imdsTrain,0.7,"randomized");
 
 % Data Augmentation
