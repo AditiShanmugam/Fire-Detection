@@ -1,4 +1,4 @@
-% Here is the code to train the modified MobileNetV2 for Fire and Smoke Detection.
+% Here is the MATLAB code to train the modified MobileNetV2 for Fire and Smoke Detection.
 
 % Initial parameterss
 % trainingSetup = load("path to file containing initial training parameters");
