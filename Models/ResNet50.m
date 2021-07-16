@@ -1,7 +1,7 @@
 % Here is the MATLAB code to train the modified ResNet50 for Fire and Smoke Detection.
 
 % Initial parameterss
-% trainingSetup = load("path to file containing initial training parameters");
+trainingSetup = load("path to file containing initial training parameters");
 
 % Data Import
 imdsTrain = imageDatastore("path to dataset","IncludeSubfolders",true,"LabelSource","foldernames");
