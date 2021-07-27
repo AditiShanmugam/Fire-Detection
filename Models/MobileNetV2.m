@@ -1,7 +1,7 @@
 % Here is the MATLAB code to train the modified MobileNetV2 for Fire and Smoke Detection.
 
-% Initial parameterss
-% trainingSetup = load("path to file containing initial training parameters");
+% % Find Initial Parameters here : https://drive.google.com/drive/folders/1NbijGD-a0WyWLnf9x21m76NwLLWpqnQk?usp=sharing 
+trainingSetup = load("path to file containing initial training parameters");
 
 % Data Import
 imdsTrain = imageDatastore("path to dataset","IncludeSubfolders",true,"LabelSource","foldernames");
