@@ -23,4 +23,4 @@ Accidental fires are one of the biggest challenges in disaster control. They are
 [9]A.Jadon., M. Omama., A. Varshney., M. Ansari., R. Sharma. 2019, FireNet: A Specialized Lightweight Fire & Smoke Detection Model for Real-Time IoT Applications.
 
  _*This repository contains all the code used for my 6th sememster project under Prof. Sowmyashree S, department of Electronics and Telecommunications Engineering of BMSIT&M 
-This project uses MATLAB to train the the models for the object detection task which are then deployed on raspberryPi._ 
+This project uses Python for webscraping to generate the dataset and MATLAB to train the the models for the object detection task which are then deployed on raspberryPi._ 
