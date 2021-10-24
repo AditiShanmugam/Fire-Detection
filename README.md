@@ -21,6 +21,8 @@ ResNet50 outperformed both FireNet and MobileNetV2 as expected. However, it is s
 
 ## Hardware 
 All three models were deployed and tested on a RaspberryPi model 4b with an additional camera module. 
+Below is the picture of the hardware setup. 
+
 <img width="750" alt="image" src="https://user-images.githubusercontent.com/69090777/138587359-66404154-3e23-4cfa-b705-9a4bc424e3d0.png">
 
 
