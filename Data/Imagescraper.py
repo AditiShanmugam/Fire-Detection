@@ -1,4 +1,7 @@
-''' Python file to scrape Google Images to generate Dataset '''
+''' 
+    Python script to scrape Google Images to generate a custom Dataset 
+    Author: Aditi Shanmugam 
+'''
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -43,7 +46,7 @@ def downloader(keyword, img_path):
        
 keywords = [] # Images/URLs to Scrape   
 
-path = '/Users/aditishanmugam/Desktop/foodz' #Path to download and store images.
+path = '' #Add a path to download and store the scraped images.
 os.mkdir(path)
 for word in keywords:
     path_n = path +'/'+word+'/'
